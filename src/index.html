@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <!-- Agregar fuente -->
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>App Mi Banco</title>
+</head>
+<body>
+    <header class="header-title mb-10 mt-10 hidden md:block">
+        <!-- Encabezado de la página -->
+        <h1 class="text-center font-nunito-sans tracking-widest text-blue-900"> ¿Qué <strong>funciones nuevas</strong> tenemos para ti?</h1>
+        <p class="text-center mt-2 font-nunito-sans tracking-wider text-gray-500 text-xs" >Descubre las novedades de las Apps del Chile </p>
+    </header>
+<main>
+    <section class="card-group grid lg:grid-cols-2 gap-4 justify-center">
+        <!-- Artículo 1 - Primera Card -->
+        <div class="big-card lg:row-span-2 flex justify-end drop-shadow-xl">
+            <div class="max-w-sm rounded-xl overflow-hidden shadow-lg bg-blue-600 shadow-2xl">
+                <div class="px-9 py-0 mt-8">
+                    <div class="flex item-center lg:ml-8 mb-2"> 
+                        <img src="./assets/bch.webp" class="w-10 m-2" alt="">
+                        <h1 class="title-card font-bold text-xl mb-2 mt-4 text-center lg:text-left text-slate-100 font-nunito-sans tracking-wide">App Mi Banco</h1>
+                    </div>
+                    <p class="text-slate-200 text-base text-left lg:ml-10 font-nunito-sans tracking-wide font-thin text-s leading-5">
+                        Inscribe y paga tus cuentas de servicios desde la nueva App Mi Banco
+                    </p>
+                    <img src="./assets/funciones-1.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="second-card lg:row-span-1 flex mt-8">
+            <!-- Artículo 2 - Segunda Card -->
+            <div class="max-w-sm rounded-xl overflow-hidden bg-slate-100 shadow-2xl flex justify-between">
+                <div class="px-9 py-0"> 
+                    <img src="./assets/mi-pago.webp" class="w-10 mt-2 mb-2" alt="">
+                    <h1 class="text-md">Con <strong>RedGiro QR</strong> retira dinero sin tarjeta</h1>
+                    <button class="text-xs">CONOCE MÁS ></button>
+                </div>  
+                <img src="./assets/funciones-2.webp" class="w-32 object-cover max-h-full" alt="">
+            </div>              
+        </div>
+        <div class="third-card lg:col-row-2 flex mt-8">
+            <!-- Artículo 3 - Tercera Card -->
+            <div class="max-w-sm rounded-xl overflow-hidden bg-slate-100 shadow-2xl flex justify-between">
+                <div class="px-9 py-0"> 
+                    <img src="./assets/mi-inversion.webp" class="w-10 mt-2 mb-2" alt="">
+                    <h1 class="text-md">Crea un plan de ahorro con <strong>Mis metas</strong></h1>
+                    <a href="#" class="text-xs">CONOCE MÁS ></a>
+                </div>  
+                <img src="./assets/funciones-3.webp" class="w-32 h-42 object-cover max-h-full" alt="">
+            </div>     
+        </div>
+    </section>
+    
+</main>
+      
+</body>
+</html>
