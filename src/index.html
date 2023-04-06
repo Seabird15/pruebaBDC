@@ -7,11 +7,11 @@
     <link href="/dist/output.css" rel="stylesheet">
     <!-- Agregar fuente -->
     <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="../src/styles.css">
     <title>App Mi Banco</title>
 </head>
 <body>
-    <header class="header-title mb-10 mt-10 hidden md:block">
+    <header class="header-title mb-10 mt-10 transform hover:scale-105 transition duration-300 hidden md:block">
         <!-- Encabezado de la página -->
         <h1 class="text-center font-nunito-sans tracking-widest text-blue-900"> ¿Qué <strong>funciones nuevas</strong> tenemos para ti?</h1>
         <p class="text-center mt-2 font-nunito-sans tracking-wider text-gray-500 text-xs" >Descubre las novedades de las Apps del Chile </p>
@@ -20,7 +20,7 @@
     <section class="card-group grid lg:grid-cols-2 gap-4 justify-center">
         <!-- Artículo 1 - Primera Card -->
         <div class="big-card lg:row-span-2 flex justify-end drop-shadow-xl">
-            <div class="max-w-sm rounded-xl overflow-hidden shadow-lg bg-blue-600 shadow-2xl">
+            <div class="max-w-sm rounded-xl overflow-hidden shadow-lg bg-blue-600 shadow-2xl ">
                 <div class="px-9 py-0 mt-8">
                     <div class="flex item-center lg:ml-8 mb-2"> 
                         <img src="./assets/bch.webp" class="w-10 m-2" alt="">
@@ -37,8 +37,8 @@
             <!-- Artículo 2 - Segunda Card -->
             <div class="max-w-sm rounded-xl overflow-hidden bg-slate-100 shadow-2xl flex justify-between">
                 <div class="px-9 py-0"> 
-                    <img src="./assets/mi-pago.webp" class="w-10 mt-2 mb-2" alt="">
-                    <h1 class="text-md">Con <strong>RedGiro QR</strong> retira dinero sin tarjeta</h1>
+                    <img src="./assets/mi-pago.webp" class="w-10 mt-6 mb-2" alt="">
+                    <h1 class="text-md font-thin">Con <strong>RedGiro QR</strong> retira dinero sin tarjeta</h1>
                     <button class="text-xs">CONOCE MÁS ></button>
                 </div>  
                 <img src="./assets/funciones-2.webp" class="w-32 object-cover max-h-full" alt="">
@@ -48,9 +48,8 @@
             <!-- Artículo 3 - Tercera Card -->
             <div class="max-w-sm rounded-xl overflow-hidden bg-slate-100 shadow-2xl flex justify-between">
                 <div class="px-9 py-0"> 
-                    <img src="./assets/mi-inversion.webp" class="w-10 mt-2 mb-2" alt="">
-                    <h1 class="text-md">Crea un plan de ahorro con <strong>Mis metas</strong></h1>
-                    <a href="#" class="text-xs">CONOCE MÁS ></a>
+                    <img src="./assets/mi-inversion.webp" class="w-10 mt-6 mb-2" alt="">
+                    <h1 class="text-md font-thin">Crea un plan de ahorro con <strong>Mis metas</strong></h1>
                 </div>  
                 <img src="./assets/funciones-3.webp" class="w-32 h-42 object-cover max-h-full" alt="">
             </div>     
